@@ -1,5 +1,5 @@
  build:
-	rm -rf public
+	rm -Rvf public/
 	hugo
 
 deploy: build
